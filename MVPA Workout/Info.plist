@@ -10,8 +10,6 @@
 	<string>This App shares Heart Rate with HealthKit</string>
 	<key>NSExtension</key>
 	<dict>
-		<key>WKCompanionAppBundleIdentifier</key>
-		<string></string>
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>WKAppBundleIdentifier</key>

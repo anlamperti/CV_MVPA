@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F0D5FEA2739AC2400D0A975 /* MVPA_WorkoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D5FE92739AC2400D0A975 /* MVPA_WorkoutApp.swift */; };
-		5F0D5FEC2739AC2400D0A975 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D5FEB2739AC2400D0A975 /* ContentView.swift */; };
+		5F0D5FEC2739AC2400D0A975 /* DataSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D5FEB2739AC2400D0A975 /* DataSelectionView.swift */; };
 		5F0D5FEE2739AC2600D0A975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0D5FED2739AC2600D0A975 /* Assets.xcassets */; };
 		5F0D5FF12739AC2600D0A975 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0D5FF02739AC2600D0A975 /* Preview Assets.xcassets */; };
 		5F0D5FFB2739AC2700D0A975 /* MVPA_WorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D5FFA2739AC2700D0A975 /* MVPA_WorkoutTests.swift */; };
@@ -18,7 +18,7 @@
 		5F0D60102739AC2900D0A975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0D600F2739AC2900D0A975 /* Assets.xcassets */; };
 		5F0D60162739AC2900D0A975 /* MVPA Workout WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5F0D60152739AC2900D0A975 /* MVPA Workout WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5F0D601B2739AC2900D0A975 /* MVPA_WorkoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D601A2739AC2900D0A975 /* MVPA_WorkoutApp.swift */; };
-		5F0D601D2739AC2900D0A975 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D601C2739AC2900D0A975 /* ContentView.swift */; };
+		5F0D601D2739AC2900D0A975 /* TargetSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D601C2739AC2900D0A975 /* TargetSelectionView.swift */; };
 		5F0D601F2739AC2900D0A975 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D601E2739AC2900D0A975 /* NotificationController.swift */; };
 		5F0D60212739AC2900D0A975 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D60202739AC2900D0A975 /* NotificationView.swift */; };
 		5F0D60232739AC2900D0A975 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D60222739AC2900D0A975 /* ComplicationController.swift */; };
@@ -27,6 +27,37 @@
 		5F0D60342739AC2A00D0A975 /* MVPA_Workout_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D60332739AC2A00D0A975 /* MVPA_Workout_WatchKit_AppTests.swift */; };
 		5F0D603E2739AC2A00D0A975 /* MVPA_Workout_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D603D2739AC2A00D0A975 /* MVPA_Workout_WatchKit_AppUITests.swift */; };
 		5F0D60402739AC2A00D0A975 /* MVPA_Workout_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D603F2739AC2A00D0A975 /* MVPA_Workout_WatchKit_AppUITestsLaunchTests.swift */; };
+		5F0D605B2739AD0700D0A975 /* Activity ControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D605A2739AD0700D0A975 /* Activity ControllerView.swift */; };
+		5F0D605D2739AD3200D0A975 /* UserDefaultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D605C2739AD3200D0A975 /* UserDefaultsController.swift */; };
+		5F0D605F2739AD5C00D0A975 /* MyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D605E2739AD5C00D0A975 /* MyExtensions.swift */; };
+		5F0D60612739ADDA00D0A975 /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D60602739ADDA00D0A975 /* WorkoutManager.swift */; };
+		5F0D60632739DAB200D0A975 /* WatchConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D60622739DAB200D0A975 /* WatchConnector.swift */; };
+		5F0D606B273A241C00D0A975 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0D606A273A241C00D0A975 /* HealthKit.framework */; };
+		5F567C052755718B00AC8DFF /* UnassignedDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F567C042755718B00AC8DFF /* UnassignedDataView.swift */; };
+		5F5E23EB273C585900A73CC2 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5E23EA273C585900A73CC2 /* WorkoutView.swift */; };
+		5F76BAE3275AA5B4008FA496 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F76BAE2275AA5B4008FA496 /* HealthKit.framework */; };
+		5F7787B22749ED8B00BE7BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0D5FED2739AC2600D0A975 /* Assets.xcassets */; };
+		5F7787BF274A548700BE7BB2 /* MyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D605E2739AD5C00D0A975 /* MyExtensions.swift */; };
+		5F7787C6274A648300BE7BB2 /* BPM+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7787C0274A648300BE7BB2 /* BPM+CoreDataClass.swift */; };
+		5F7787C7274A648300BE7BB2 /* BPM+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7787C1274A648300BE7BB2 /* BPM+CoreDataProperties.swift */; };
+		5F7787C8274A648300BE7BB2 /* Activity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7787C2274A648300BE7BB2 /* Activity+CoreDataClass.swift */; };
+		5F7787C9274A648300BE7BB2 /* Activity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7787C3274A648300BE7BB2 /* Activity+CoreDataProperties.swift */; };
+		5F7787CA274A648300BE7BB2 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7787C4274A648300BE7BB2 /* User+CoreDataClass.swift */; };
+		5F7787CB274A648300BE7BB2 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7787C5274A648300BE7BB2 /* User+CoreDataProperties.swift */; };
+		5F7D7B1A273A2B2300FA0FCA /* PhoneConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7D7B19273A2B2300FA0FCA /* PhoneConnector.swift */; };
+		5F8FBFAE273C80560057993A /* WorkoutDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FBFAD273C80560057993A /* WorkoutDetailsView.swift */; };
+		5F8FBFB0273C80AB0057993A /* BpmChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FBFAF273C80AB0057993A /* BpmChart.swift */; };
+		5F8FBFB2273C83B30057993A /* WorkoutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FBFB1273C83B30057993A /* WorkoutData.swift */; };
+		5FAD77FA27FB53F900E0E84A /* HRMax alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD77F927FB53F900E0E84A /* HRMax alert.swift */; };
+		5FAD77FE27FBD0C700E0E84A /* HRMax+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD77FD27FBD0C700E0E84A /* HRMax+CoreDataClass.swift */; };
+		5FAD780027FBD12E00E0E84A /* HRMax+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD77FF27FBD12E00E0E84A /* HRMax+CoreDataProperties.swift */; };
+		5FCE5E6227E7D8AD00107A59 /* UserDefaultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCE5E6127E7D8AD00107A59 /* UserDefaultsController.swift */; };
+		5FCE5E6427E7E44E00107A59 /* AssigneePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCE5E6327E7E44E00107A59 /* AssigneePickerView.swift */; };
+		5FCE5E6627E80B2A00107A59 /* HealthKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCE5E6527E80B2A00107A59 /* HealthKitController.swift */; };
+		5FD9536F2748E00100F51810 /* Activity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9536D2748E00100F51810 /* Activity.xcdatamodeld */; };
+		5FD953712748E0F600F51810 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD953702748E0F600F51810 /* Persistence.swift */; };
+		5FD9537327494A8800F51810 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9537227494A8800F51810 /* PeopleView.swift */; };
+		5FD953752749628700F51810 /* PeopleDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD953742749628700F51810 /* PeopleDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,8 +133,8 @@
 /* Begin PBXFileReference section */
 		5F0D5FE62739AC2400D0A975 /* MVPA Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVPA Workout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0D5FE92739AC2400D0A975 /* MVPA_WorkoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPA_WorkoutApp.swift; sourceTree = "<group>"; };
-		5F0D5FEB2739AC2400D0A975 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5F0D5FED2739AC2600D0A975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F0D5FEB2739AC2400D0A975 /* DataSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSelectionView.swift; sourceTree = "<group>"; };
+		5F0D5FED2739AC2600D0A975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "MVPA Workout/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		5F0D5FF02739AC2600D0A975 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5F0D5FF62739AC2700D0A975 /* MVPA WorkoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVPA WorkoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0D5FFA2739AC2700D0A975 /* MVPA_WorkoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPA_WorkoutTests.swift; sourceTree = "<group>"; };
@@ -114,19 +145,52 @@
 		5F0D600F2739AC2900D0A975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F0D60152739AC2900D0A975 /* MVPA Workout WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MVPA Workout WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0D601A2739AC2900D0A975 /* MVPA_WorkoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPA_WorkoutApp.swift; sourceTree = "<group>"; };
-		5F0D601C2739AC2900D0A975 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5F0D601C2739AC2900D0A975 /* TargetSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetSelectionView.swift; sourceTree = "<group>"; };
 		5F0D601E2739AC2900D0A975 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		5F0D60202739AC2900D0A975 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		5F0D60222739AC2900D0A975 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		5F0D60242739AC2A00D0A975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F0D60272739AC2A00D0A975 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5F0D60292739AC2A00D0A975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F0D602A2739AC2A00D0A975 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		5F0D602F2739AC2A00D0A975 /* MVPA Workout WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVPA Workout WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0D60332739AC2A00D0A975 /* MVPA_Workout_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPA_Workout_WatchKit_AppTests.swift; sourceTree = "<group>"; };
 		5F0D60392739AC2A00D0A975 /* MVPA Workout WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVPA Workout WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0D603D2739AC2A00D0A975 /* MVPA_Workout_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPA_Workout_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		5F0D603F2739AC2A00D0A975 /* MVPA_Workout_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPA_Workout_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F0D605A2739AD0700D0A975 /* Activity ControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity ControllerView.swift"; sourceTree = "<group>"; };
+		5F0D605C2739AD3200D0A975 /* UserDefaultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsController.swift; sourceTree = "<group>"; };
+		5F0D605E2739AD5C00D0A975 /* MyExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtensions.swift; sourceTree = "<group>"; };
+		5F0D60602739ADDA00D0A975 /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		5F0D60622739DAB200D0A975 /* WatchConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnector.swift; sourceTree = "<group>"; };
+		5F0D6068273A241C00D0A975 /* MVPA Workout WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MVPA Workout WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		5F0D606A273A241C00D0A975 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		5F272F242759A0FE00D11D27 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "MVPA Workout WatchKit Extension/Info.plist"; sourceTree = SOURCE_ROOT; };
+		5F567C042755718B00AC8DFF /* UnassignedDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnassignedDataView.swift; sourceTree = "<group>"; };
+		5F5E23EA273C585900A73CC2 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		5F76BAE02759B725008FA496 /* MVPA-Workout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MVPA-Workout-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5F76BAE1275AA5B4008FA496 /* MVPA Workout.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MVPA Workout.entitlements"; sourceTree = "<group>"; };
+		5F76BAE2275AA5B4008FA496 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		5F7787C0274A648300BE7BB2 /* BPM+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BPM+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5F7787C1274A648300BE7BB2 /* BPM+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BPM+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5F7787C2274A648300BE7BB2 /* Activity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5F7787C3274A648300BE7BB2 /* Activity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5F7787C4274A648300BE7BB2 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5F7787C5274A648300BE7BB2 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5F7D7B19273A2B2300FA0FCA /* PhoneConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneConnector.swift; sourceTree = "<group>"; };
+		5F8FBFAD273C80560057993A /* WorkoutDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailsView.swift; sourceTree = "<group>"; };
+		5F8FBFAF273C80AB0057993A /* BpmChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpmChart.swift; sourceTree = "<group>"; };
+		5F8FBFB1273C83B30057993A /* WorkoutData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutData.swift; sourceTree = "<group>"; };
+		5FAD77F927FB53F900E0E84A /* HRMax alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HRMax alert.swift"; sourceTree = "<group>"; };
+		5FAD77FD27FBD0C700E0E84A /* HRMax+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HRMax+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5FAD77FF27FBD12E00E0E84A /* HRMax+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HRMax+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5FADD1422759A64300CD0EE5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FCE5E6127E7D8AD00107A59 /* UserDefaultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaultsCo\U0010ntroller.swift"; sourceTree = "<group>"; };
+		5FCE5E6327E7E44E00107A59 /* AssigneePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssigneePickerView.swift; sourceTree = "<group>"; };
+		5FCE5E6527E80B2A00107A59 /* HealthKitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitController.swift; sourceTree = "<group>"; };
+		5FD9536E2748E00100F51810 /* Activity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Activity.xcdatamodel; sourceTree = "<group>"; };
+		5FD953702748E0F600F51810 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5FD9537227494A8800F51810 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		5FD953742749628700F51810 /* PeopleDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +198,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F76BAE3275AA5B4008FA496 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +220,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F0D606B273A241C00D0A975 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +244,7 @@
 		5F0D5FDD2739AC2300D0A975 = {
 			isa = PBXGroup;
 			children = (
+				5F7787CC274A649000BE7BB2 /* CoreData */,
 				5F0D5FE82739AC2400D0A975 /* MVPA Workout */,
 				5F0D5FF92739AC2700D0A975 /* MVPA WorkoutTests */,
 				5F0D60032739AC2700D0A975 /* MVPA WorkoutUITests */,
@@ -186,6 +253,7 @@
 				5F0D60322739AC2A00D0A975 /* MVPA Workout WatchKit AppTests */,
 				5F0D603C2739AC2A00D0A975 /* MVPA Workout WatchKit AppUITests */,
 				5F0D5FE72739AC2400D0A975 /* Products */,
+				5F0D6069273A241C00D0A975 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -206,9 +274,16 @@
 		5F0D5FE82739AC2400D0A975 /* MVPA Workout */ = {
 			isa = PBXGroup;
 			children = (
+				5F76BAE1275AA5B4008FA496 /* MVPA Workout.entitlements */,
+				5F76BAE02759B725008FA496 /* MVPA-Workout-Info.plist */,
 				5F0D5FE92739AC2400D0A975 /* MVPA_WorkoutApp.swift */,
-				5F0D5FEB2739AC2400D0A975 /* ContentView.swift */,
+				5FCE5E5D27E6A9C400107A59 /* DataSelection */,
+				5FCE5E5E27E6AA2200107A59 /* People */,
+				5FCE5E6027E6ABF000107A59 /* UnassignedData */,
+				5FCE5E5F27E6ABDF00107A59 /* Util */,
+				5FD9536D2748E00100F51810 /* Activity.xcdatamodeld */,
 				5F0D5FED2739AC2600D0A975 /* Assets.xcassets */,
+				5F272F242759A0FE00D11D27 /* Info.plist */,
 				5F0D5FEF2739AC2600D0A975 /* Preview Content */,
 			);
 			path = "MVPA Workout";
@@ -251,13 +326,18 @@
 			isa = PBXGroup;
 			children = (
 				5F0D601A2739AC2900D0A975 /* MVPA_WorkoutApp.swift */,
-				5F0D601C2739AC2900D0A975 /* ContentView.swift */,
+				5F0D601C2739AC2900D0A975 /* TargetSelectionView.swift */,
+				5F0D60602739ADDA00D0A975 /* WorkoutManager.swift */,
+				5F0D605A2739AD0700D0A975 /* Activity ControllerView.swift */,
+				5F0D605C2739AD3200D0A975 /* UserDefaultsController.swift */,
+				5F7D7B19273A2B2300FA0FCA /* PhoneConnector.swift */,
 				5F0D601E2739AC2900D0A975 /* NotificationController.swift */,
 				5F0D60202739AC2900D0A975 /* NotificationView.swift */,
 				5F0D60222739AC2900D0A975 /* ComplicationController.swift */,
 				5F0D60242739AC2A00D0A975 /* Assets.xcassets */,
-				5F0D60292739AC2A00D0A975 /* Info.plist */,
+				5F0D6068273A241C00D0A975 /* MVPA Workout WatchKit Extension.entitlements */,
 				5F0D602A2739AC2A00D0A975 /* PushNotificationPayload.apns */,
+				5FADD1422759A64300CD0EE5 /* Info.plist */,
 				5F0D60262739AC2A00D0A975 /* Preview Content */,
 			);
 			path = "MVPA Workout WatchKit Extension";
@@ -286,6 +366,73 @@
 				5F0D603F2739AC2A00D0A975 /* MVPA_Workout_WatchKit_AppUITestsLaunchTests.swift */,
 			);
 			path = "MVPA Workout WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+		5F0D6069273A241C00D0A975 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F76BAE2275AA5B4008FA496 /* HealthKit.framework */,
+				5F0D606A273A241C00D0A975 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F7787CC274A649000BE7BB2 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5FAD77FD27FBD0C700E0E84A /* HRMax+CoreDataClass.swift */,
+				5FAD77FF27FBD12E00E0E84A /* HRMax+CoreDataProperties.swift */,
+				5F7787C0274A648300BE7BB2 /* BPM+CoreDataClass.swift */,
+				5F7787C1274A648300BE7BB2 /* BPM+CoreDataProperties.swift */,
+				5F7787C2274A648300BE7BB2 /* Activity+CoreDataClass.swift */,
+				5F7787C3274A648300BE7BB2 /* Activity+CoreDataProperties.swift */,
+				5F7787C4274A648300BE7BB2 /* User+CoreDataClass.swift */,
+				5F7787C5274A648300BE7BB2 /* User+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		5FCE5E5D27E6A9C400107A59 /* DataSelection */ = {
+			isa = PBXGroup;
+			children = (
+				5F0D5FEB2739AC2400D0A975 /* DataSelectionView.swift */,
+				5F5E23EA273C585900A73CC2 /* WorkoutView.swift */,
+				5F8FBFAD273C80560057993A /* WorkoutDetailsView.swift */,
+				5F8FBFAF273C80AB0057993A /* BpmChart.swift */,
+			);
+			path = DataSelection;
+			sourceTree = "<group>";
+		};
+		5FCE5E5E27E6AA2200107A59 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				5FD9537227494A8800F51810 /* PeopleView.swift */,
+				5FD953742749628700F51810 /* PeopleDetailsView.swift */,
+				5FAD77F927FB53F900E0E84A /* HRMax alert.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		5FCE5E5F27E6ABDF00107A59 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FBFB1273C83B30057993A /* WorkoutData.swift */,
+				5F0D60622739DAB200D0A975 /* WatchConnector.swift */,
+				5FD953702748E0F600F51810 /* Persistence.swift */,
+				5F0D605E2739AD5C00D0A975 /* MyExtensions.swift */,
+				5FCE5E6127E7D8AD00107A59 /* UserDefaultsController.swift */,
+				5FCE5E6527E80B2A00107A59 /* HealthKitController.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		5FCE5E6027E6ABF000107A59 /* UnassignedData */ = {
+			isa = PBXGroup;
+			children = (
+				5F567C042755718B00AC8DFF /* UnassignedDataView.swift */,
+				5FCE5E6327E7E44E00107A59 /* AssigneePickerView.swift */,
+			);
+			path = UnassignedData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,6 +652,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7787B22749ED8B00BE7BB2 /* Assets.xcassets in Resources */,
 				5F0D60102739AC2900D0A975 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -539,8 +687,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F0D5FEC2739AC2400D0A975 /* ContentView.swift in Sources */,
+				5FAD77FE27FBD0C700E0E84A /* HRMax+CoreDataClass.swift in Sources */,
+				5FD953712748E0F600F51810 /* Persistence.swift in Sources */,
+				5F7787C8274A648300BE7BB2 /* Activity+CoreDataClass.swift in Sources */,
+				5FD9537327494A8800F51810 /* PeopleView.swift in Sources */,
+				5F7787C6274A648300BE7BB2 /* BPM+CoreDataClass.swift in Sources */,
+				5F8FBFB0273C80AB0057993A /* BpmChart.swift in Sources */,
+				5F7787BF274A548700BE7BB2 /* MyExtensions.swift in Sources */,
+				5F7787C7274A648300BE7BB2 /* BPM+CoreDataProperties.swift in Sources */,
+				5FCE5E6227E7D8AD00107A59 /* UserDefaultsController.swift in Sources */,
+				5F0D5FEC2739AC2400D0A975 /* DataSelectionView.swift in Sources */,
+				5F7787CB274A648300BE7BB2 /* User+CoreDataProperties.swift in Sources */,
+				5F7787CA274A648300BE7BB2 /* User+CoreDataClass.swift in Sources */,
+				5FD9536F2748E00100F51810 /* Activity.xcdatamodeld in Sources */,
+				5F0D60632739DAB200D0A975 /* WatchConnector.swift in Sources */,
+				5FD953752749628700F51810 /* PeopleDetailsView.swift in Sources */,
+				5FCE5E6427E7E44E00107A59 /* AssigneePickerView.swift in Sources */,
+				5F567C052755718B00AC8DFF /* UnassignedDataView.swift in Sources */,
+				5F5E23EB273C585900A73CC2 /* WorkoutView.swift in Sources */,
+				5F7787C9274A648300BE7BB2 /* Activity+CoreDataProperties.swift in Sources */,
+				5FCE5E6627E80B2A00107A59 /* HealthKitController.swift in Sources */,
+				5F8FBFB2273C83B30057993A /* WorkoutData.swift in Sources */,
+				5F8FBFAE273C80560057993A /* WorkoutDetailsView.swift in Sources */,
 				5F0D5FEA2739AC2400D0A975 /* MVPA_WorkoutApp.swift in Sources */,
+				5FAD780027FBD12E00E0E84A /* HRMax+CoreDataProperties.swift in Sources */,
+				5FAD77FA27FB53F900E0E84A /* HRMax alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,8 +736,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F0D605B2739AD0700D0A975 /* Activity ControllerView.swift in Sources */,
 				5F0D601F2739AC2900D0A975 /* NotificationController.swift in Sources */,
-				5F0D601D2739AC2900D0A975 /* ContentView.swift in Sources */,
+				5F0D60612739ADDA00D0A975 /* WorkoutManager.swift in Sources */,
+				5F0D601D2739AC2900D0A975 /* TargetSelectionView.swift in Sources */,
+				5F0D605F2739AD5C00D0A975 /* MyExtensions.swift in Sources */,
+				5F0D605D2739AD3200D0A975 /* UserDefaultsController.swift in Sources */,
+				5F7D7B1A273A2B2300FA0FCA /* PhoneConnector.swift in Sources */,
 				5F0D60232739AC2900D0A975 /* ComplicationController.swift in Sources */,
 				5F0D601B2739AC2900D0A975 /* MVPA_WorkoutApp.swift in Sources */,
 				5F0D60212739AC2900D0A975 /* NotificationView.swift in Sources */,
@@ -741,6 +917,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "MVPA Workout WatchKit Extension/MVPA Workout WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MVPA Workout WatchKit Extension/Preview Content\"";
@@ -773,6 +950,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "MVPA Workout WatchKit Extension/MVPA Workout WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MVPA Workout WatchKit Extension/Preview Content\"";
@@ -860,12 +1038,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MVPA Workout/MVPA Workout.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MVPA Workout/Preview Content\"";
 				DEVELOPMENT_TEAM = 5973QV84GB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MVPA-Workout-Info.plist";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This App shares HeartRate with HealthKit";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This App uses HealthKit to get Heart Rate from patient for Clinical Research Trial. Your Heart Rate will be stored in your secure, personal, Clinical Trial record and will be used to further medical innovation";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -879,6 +1062,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Com.AlexHerrin.MVPA-Workout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -891,12 +1075,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MVPA Workout/MVPA Workout.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MVPA Workout/Preview Content\"";
 				DEVELOPMENT_TEAM = 5973QV84GB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MVPA-Workout-Info.plist";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This App shares HeartRate with HealthKit";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This App uses HealthKit to get Heart Rate from patient for Clinical Research Trial. Your Heart Rate will be stored in your secure, personal, Clinical Trial record and will be used to further medical innovation";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -910,6 +1099,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Com.AlexHerrin.MVPA-Workout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1200,6 +1390,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5FD9536D2748E00100F51810 /* Activity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5FD9536E2748E00100F51810 /* Activity.xcdatamodel */,
+			);
+			currentVersion = 5FD9536E2748E00100F51810 /* Activity.xcdatamodel */;
+			path = Activity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5F0D5FDE2739AC2300D0A975 /* Project object */;
 }
