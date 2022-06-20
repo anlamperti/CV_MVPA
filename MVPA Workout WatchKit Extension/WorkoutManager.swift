@@ -12,7 +12,7 @@ import WatchConnectivity
 
 class WorkoutManager: NSObject, ObservableObject {
     
-    var delegate: ActivityControllerView?
+    var delegate: ActivitySampleProcessor?
 //    var selectedWorkout: HKWorkoutActivityType? {
 //        didSet {
 //            guard let selectedWorkout = selectedWorkout else { return }
