@@ -20,7 +20,7 @@ struct Constants {
 
 class ActivitySampleProcessor: NSObject {
     let workoutManager = WorkoutManager()
-    var hrMax : Int = 10;
+    var hrMax : Int = 100
     var bpmValues: [Int] = []
     var percentageOfGoalComplete: Double = 0
 
@@ -50,7 +50,7 @@ class ActivitySampleProcessor: NSObject {
         print(Double(samplesAboveTarget))
         print(Double(Constants.samplesToReachGoal))
         print(percentageOfGoalComplete)
-        print("Goal complate: \(Int(percentageOfGoalComplete * 100))%")
+        print("Goal complate: \(Double(percentageOfGoalComplete * 100))%")
 
         // for activity success
         print("samplesAboveTarget: \(samplesAboveTarget), total \(self.bpmValues.count)")
@@ -220,9 +220,11 @@ struct ActivityStopped : View {
                     .onLongPressGesture(
                         minimumDuration: pressDuration,
                         perform: delegate.startActivity
+//                      perform: TargetSelectionView()
                     )
                     .onTapGesture(count: 5) {
                         hrMax = 0
+//                        testing 
                     }
             }
         }

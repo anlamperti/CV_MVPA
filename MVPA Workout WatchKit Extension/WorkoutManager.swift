@@ -158,7 +158,7 @@ class WorkoutManager: NSObject, ObservableObject {
                 
                 self.delegate?.processSample()
                 
-                print("after delegate call")
+//                print("after delegate call")
                 
             case HKQuantityType.quantityType(forIdentifier: .activeEnergyBurned):
                 let energyUnit = HKUnit.kilocalorie()
@@ -172,7 +172,7 @@ class WorkoutManager: NSObject, ObservableObject {
             }
         }
         
-        print("outside async")
+//        print("outside async")
     }
 
     func resetWorkout() {

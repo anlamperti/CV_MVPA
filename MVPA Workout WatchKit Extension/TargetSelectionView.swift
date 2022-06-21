@@ -38,6 +38,7 @@ struct TargetSelectionView: View {
             })
         }.onDisappear() {
             print("HRMax: \(hrMax)")
+            print("Duration: \($durationSelection.wrappedValue) minutes")
         }.scaledToFit()
     }
     

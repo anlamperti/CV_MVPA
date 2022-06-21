@@ -25,7 +25,7 @@ extension BpmMeasurement: Hashable {
 
 public struct Workout {
     let bpmData: [BpmMeasurement]
-    let averageBpm, hrMaxPercentage: Int
+    let averageBpm, hrMaxPercentage: Double
     let date: Date
 }
 
